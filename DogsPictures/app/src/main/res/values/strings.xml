@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DogsPictures</string>
+    <string name="textHello">Dobrodošli u aplikaciju.\nOdaberiti željenu opciju.</string>
+    <string name="buttonGetSavedPictures">Dohvati spremljene slike</string>
+    <string name="buttonGetPictures">Dohvati nasumične slike</string>
+    <string name="textEnterNumber">Upišite broj nasumičnih slika</string>
+    <string name="buttonSavePicture">Spremi slike</string>
+    <string name="buttonDeletePicture">Izbriši sliku</string>
+</resources>

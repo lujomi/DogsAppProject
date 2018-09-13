@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="8dp">
+
+    <TextView
+        android:id="@+id/textHello"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/textHello"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonGetSavedPictures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textHello"
+        android:layout_marginTop="10dp"
+        android:text="@string/buttonGetSavedPictures"
+        app:layout_constraintTop_toBottomOf="@+id/textHello" />
+
+
+    <TextView
+        android:id="@+id/textEnterNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/buttonGetSavedPictures"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="5dp"
+        android:text="@string/textEnterNumber"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGetSavedPictures" />
+
+    <EditText
+        android:id="@+id/inputEnterNumber"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textEnterNumber"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintTop_toBottomOf="@+id/textEnterNumber" />
+
+    <Button
+        android:id="@+id/buttonGetRandomPictures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/inputEnterNumber"
+        android:layout_marginTop="10dp"
+        android:text="@string/buttonGetPictures"
+        app:layout_constraintTop_toBottomOf="@+id/inputEnterNumber" />
+
+
+</android.support.constraint.ConstraintLayout>
