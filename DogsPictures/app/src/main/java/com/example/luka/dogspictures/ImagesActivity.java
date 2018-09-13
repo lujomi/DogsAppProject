@@ -84,7 +84,7 @@ public class ImagesActivity extends AppCompatActivity {
     }
 
     private void setAdapter(List<String> images, boolean isSaved) {
-        RecyclerView recyclerView = findViewById(R.id.recvcler);
+        RecyclerView recyclerView = findViewById(R.id.recycler);
         DogsAdapter adapter = new DogsAdapter(ImagesActivity.this, images, isSaved);
         recyclerView.setLayoutManager(new LinearLayoutManager(ImagesActivity.this));
         recyclerView.setAdapter(adapter);
